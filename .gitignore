@@ -1,0 +1,9 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Never publish local QA run artifacts if copied by mistake
+test-runs/
+test-data/
+.testing-feature/

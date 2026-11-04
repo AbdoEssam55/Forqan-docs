@@ -1,0 +1,27 @@
+Copyright (c) 2025–2026 Omar Al-Imam Al-Maghawry Al-Imam. All rights reserved.
+
+The software, documentation, test cases, test data, and related tools in this
+repository are the proprietary and confidential property of
+Omar Al-Imam Al-Maghawry Al-Imam.
+
+No right is granted to copy, modify, distribute, publish, sublicense, sell,
+or reuse this work, except to use the live service as the owner provides it.
+
+Unauthorized reproduction or appropriation is an infringement of copyright
+under Egyptian Law No. 82 of 2002 on the Protection of Intellectual Property
+Rights. The owner may seek the civil remedies and criminal penalties provided
+by that law.
+
+---
+
+حقوق النشر © 2025–2026 عمر الامام المغاورى الامام. جميع الحقوق محفوظة.
+
+البرمجيات والوثائق وحالات الاختبار وبيانات الاختبار والأدوات المرتبطة بها في هذا
+المستودع ملكية خاصة وسرية لصاحبها عمر الامام المغاورى الامام.
+
+لا يُمنح أي حق في نسخ هذا العمل أو تعديله أو توزيعه أو نشره أو بيعه أو إعادة
+استخدامه، إلا في حدود استخدام الخدمة المباشرة التي يقدمها المالك.
+
+يُعد النسخ أو الاستيلاء غير المصرح به اعتداءً على حق المؤلف طبقًا للقانون رقم
+82 لسنة 2002 بشأن حماية حقوق الملكية الفكرية، ويحق للمالك طلب الجزاءات المدنية
+والجنائية المقررة في هذا القانون.

@@ -1,0 +1,86 @@
+# Students — edit (tenant) — Frontend Test Cases
+
+## Metadata
+
+- Project: `alforqan`
+- Feature: `students`
+- Layer: `frontend`
+- Routes: `/{locale}/{tenantSlug}/students/{studentId}/edit`, ``/{locale}/{tenantSlug}/students/{studentId} `(read-only detail after save)`
+- APIs: -
+- Related code: `src/app/[locale]/(tenant)/[tenantSlug]/students/[id]/edit/student-edit-content.tsx`, `src/app/[locale]/(tenant)/[tenantSlug]/students/[id]/student-detail-content.tsx`, `src/features/alforqan/components/student-form.tsx`, `src/features/alforqan/components/student-create-wizard-form.tsx`, `src/types/student.ts`, `src/features/sard/student-pending-sard-checkpoint-field.tsx`, `Backend/Alforqan/Alforqan.Core/Features/Sard/Helpers/SardCheckpointPassSyncHelper.cs`
+- Related docs: `docs/technical/tenant/students-guide.md`, `docs/explanation/tenant/students-explained.md`
+
+## Scope
+
+- Edit student wizard: account, contact, student memorization fields (including reached surah), parents step, and final save.
+
+## Test pages
+
+- `/{locale}/{tenantSlug}/students/{studentId}/edit`
+- `/{locale}/{tenantSlug}/students/{studentId}` (read-only detail after save)
+
+## Test scenarios
+
+- Changing reached surah (and related student fields) persists after save and appears on the student detail page.
+- In-progress edits on the student step are not cleared when the page reloads data in the background before save.
+- Last ayah reached cannot exceed the ayah count of the selected surah (field clamps and shows a validation message).
+- Clearing juz to "Not set" also clears reached surah and last ayah.
+- Honor-board switch defaults on; turning it off persists after save and reload.
+
+## Delivery waves
+
+
+| Wave | Intent                                            | Keys (representative)                  | Depends on (cross-file) |
+| ---- | ------------------------------------------------- | -------------------------------------- | ----------------------- |
+| 1    | Save reached surah and verify detail page         | `ALFQ-STU-EDT-001`                     | —                       |
+| 2    | Tab switch persistence before save                | `ALFQ-STU-EDT-002`                     | `ALFQ-STU-EDT-001`      |
+| 3    | Memorization validation (ayah limit, juz cascade) | `ALFQ-STU-EDT-003`, `ALFQ-STU-EDT-004` | `ALFQ-STU-EDT-001`      |
+| 4    | Sard checkpoint retarget (history-safe)           | `ALFQ-STU-EDT-005`, `ALFQ-STU-EDT-006` | `ALFQ-STU-EDT-001`      |
+| 5    | Honor board opt-out                               | `ALFQ-STU-EDT-007`                     | `ALFQ-STU-EDT-001`      |
+
+
+Independent of the halaqat sessions chain. Student profile from Wave 1 feeds [evaluation](../halaqat/frontend/halaqat-evaluation-test-cases.md) defaults.
+
+## Test cases
+
+### Wave 1 — Save memorization
+
+
+| ID    | Key              | Case                                                                     | Type | Preconditions                                                  | Steps                                                                                                                                                                                                                                                                                                                                   | Expected                                                                                                                                                                                                                                                                                           | Requires | Related code | Test data                     |
+| ----- | ---------------- | ------------------------------------------------------------------------ | ---- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------ | ----------------------------- |
+| TC-01 | ALFQ-STU-EDT-001 | Verify changing reached surah and saving updates the student detail page | Main | User may edit students; a student exists with a linked account | 1. Open the student **Edit** page (not only the detail page). 2. Use **Next** until the step titled for student memorization appears. 3. Choose a different reached surah from the list (or set one if none was set). 4. Set or change **Last ayah reached** to a valid ayah for that surah. 5. Continue to the last step and choose **Save**. 6. On the student detail page, read the reached surah and last ayah lines. | 1. A success message appears after save.<br>2. The detail page shows the same surah name you chose on the edit step.<br>3. The detail page shows the same last ayah number under "Last ayah reached" / "آخر آية وصل إليها".<br>4. If you use the browser network log: the JSON save for the student (after the multipart account save) must list the same reached surah and ayah you chose, not only the account fields. | -        | `src/features/alforqan/components/student-form.tsx`, `src/app/[locale]/(tenant)/[tenantSlug]/students/[id]/edit/student-edit-content.tsx`, `src/app/[locale]/(tenant)/[tenantSlug]/students/[id]/student-detail-content.tsx` | Student: any with edit access |
+
+
+### Wave 2 — Tab persistence
+
+
+| ID    | Key              | Case                                                                                                | Type | Preconditions                            | Steps                                                                                                                                                                                                                                                                                                                                                                    | Expected                                                                                                                                 | Requires         | Related code | Test data |
+| ----- | ---------------- | --------------------------------------------------------------------------------------------------- | ---- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------ | --------- |
+| TC-02 | ALFQ-STU-EDT-002 | Verify reached surah choice is still there after leaving the browser tab and returning, before save | Edge | Same as TC-01; do not click **Save** yet | 1. Open the student **Edit** page and go to the memorization step. 2. Choose a specific reached surah. 3. Switch to another browser tab, wait a few seconds, then return to this tab. 4. Confirm the memorization step still shows the same surah (use **Next** / **Previous** if needed). 5. Complete the wizard and choose **Save**. 6. Check the student detail page. | 1. <br>2. After returning to the tab, the memorization step still shows the surah you chose. 2.<br>3. After save, the detail page matches that surah. | ALFQ-STU-EDT-001 | `src/features/alforqan/components/student-form.tsx` | -         |
+
+
+### Wave 3 — Memorization validation
+
+
+| ID    | Key              | Case                                                         | Type | Preconditions                         | Steps                                                                                                                                              | Expected                                                                                                                                                                                                                    | Requires         | Related code | Test data         |
+| ----- | ---------------- | ------------------------------------------------------------ | ---- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------ | ----------------- |
+| TC-03 | ALFQ-STU-EDT-003 | Verify last ayah cannot exceed the selected surah ayah count | Main | User on memorization step             | 1. Open student **Edit** and go to the memorization step. 2. Select reached surah "Al-Faatiha (1)". 3. Type "8" in "Last ayah reached (optional)". | 1. <br>2. The field shows "7" (Al-Faatiha has 7 ayahs). 2.<br>3. A validation message appears (for example that ayah cannot exceed 7 for the selected surah). 3.<br>4. You can clear the field completely and type a lower number such as "3". | ALFQ-STU-EDT-001 | `src/features/alforqan/components/student-form.tsx`, `src/lib/utils/quran-surah-juz.ts` | Surah 1 (7 ayahs) |
+| TC-04 | ALFQ-STU-EDT-004 | Verify clearing juz clears reached surah and last ayah       | Main | Student has juz and reached surah set | 1. Open student **Edit** and go to the memorization step. 2. Set "Juz (optional)" to "Not set".                                                    | 1. <br>2. "Reached surah (optional)" shows "Not set". 2.<br>3. "Last ayah reached (optional)" is empty and disabled.                                                                                                                     | ALFQ-STU-EDT-001 | `src/features/alforqan/components/student-form.tsx` | -                 |
+
+
+### Wave 4 — Sard checkpoint retarget
+
+
+| ID    | Key              | Case                                                                                         | Type | Preconditions                                                                 | Steps                                                                                                                                                                                                                         | Expected                                                                                                                                                                                                                                                         | Requires         | Related code                                                                                                                                              | Test data |
+| ----- | ---------------- | -------------------------------------------------------------------------------------------- | ---- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| TC-05 | ALFQ-STU-EDT-005 | Verify edit shows current pending Sard checkpoint and allows changing it when progress moves | Main | Student with reached surah/ayah and at least one Sard checkpoint plan seeded | 1. Open student **Edit** and go to the memorization step.<br>2. Read "Pending Sard checkpoint".<br>3. Change reached ayah to a later ayah in the same surah.<br>4. Confirm the pending checkpoint field updates.<br>5. Save. | 1. The field shows the current pending checkpoint from Sard status (or the computed default).<br>2. After changing progress, the default pending moves to the first checkpoint after the new ayah.<br>3. Save succeeds and the student profile Sard status matches the saved pending checkpoint. | ALFQ-STU-EDT-001 | `src/features/alforqan/components/student-form.tsx`, `src/features/sard/student-pending-sard-checkpoint-field.tsx`, `Backend/Alforqan/Alforqan.Core/Features/Sard/Helpers/SardCheckpointPassSyncHelper.cs` | -         |
+| TC-06 | ALFQ-STU-EDT-006 | Verify editing pending checkpoint does not remove existing Sard session history              | Edge | Student with at least one completed or failed Sard session on a checkpoint   | 1. Note the student's Sard attempts on the profile page.<br>2. Edit the student and change only the pending Sard checkpoint to a later valid option.<br>3. Save.<br>4. Re-open the student profile Sard status.               | 1. Save succeeds.<br>2. Prior Sard session attempts and passed checkpoints from real sessions remain listed.<br>3. Only the pending checkpoint / bootstrap pass state changes.                                                                                    | ALFQ-STU-EDT-005 | `Backend/Alforqan/Alforqan.Core/Features/Sard/Helpers/SardCheckpointPassSyncHelper.cs`, `src/app/[locale]/(tenant)/[tenantSlug]/students/[id]/student-detail-content.tsx` | Student with Sard history |
+
+### Wave 5 — Honor board opt-out
+
+
+| ID    | Key              | Case                                                                                                                              | Type | Preconditions                                         | Steps                                                                                                                                                                                                                                                                                                                                                          | Expected                                                                                                                                                                                                                                                                                                                                                                                                           | Requires         | Related code                                          | Test data |
+| ----- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------- | ---- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- | ----------------------------------------------------- | --------- |
+| TC-07 | ALFQ-STU-EDT-007 | Verify student edit shows "Show on honor board" / "إظهار في لوحة التميز" default on, and turning it off persists after save + reload | Main | User may edit students; a student exists with a linked account | 1. Open the student **Edit** page.<br>2. Use **Next** until the memorization / student-record step.<br>3. Find the switch labeled "Show on honor board" / "إظهار في لوحة التميز".<br>4. Confirm it is on for an existing student that was never opted out.<br>5. Turn the switch off.<br>6. Continue to the last step and choose **Save**.<br>7. Re-open the same student **Edit** page and go to the same step. | 1. The switch is visible on the memorization/student step.<br>2. For an existing student it is on by default.<br>3. After save and reload the switch is off.<br>4. The student JSON save payload includes `"showOnLeaderboard": false`. | ALFQ-STU-EDT-001 | `src/features/alforqan/components/student-form.tsx` | -         |
+
+
