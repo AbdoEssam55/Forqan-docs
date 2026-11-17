@@ -1,5 +1,7 @@
 # Session start window — Backend Test Cases
 
+> **Superseded (2026-11-17):** sessions are now started on demand by the tutor and the schedule is a reminder only. See `test-cases/halaqat/backend/tutor-started-sessions-test-cases.md` and `docs/technical-docs/tutor-started-sessions.md`.
+
 ## Metadata
 - Project: `alforqan`
 - Feature: `halaqat`
