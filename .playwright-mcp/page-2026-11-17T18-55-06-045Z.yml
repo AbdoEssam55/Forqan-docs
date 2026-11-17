@@ -1,0 +1,190 @@
+- generic [active] [ref=f1e1]:
+  - generic:
+    - generic [ref=f1e3]:
+      - button "Dismiss sponsorship reminder" [ref=f1e4]
+      - generic [ref=f1e9]:
+        - heading "Love Coolify? Support our work." [level=2] [ref=f1e10]
+        - paragraph [ref=f1e11]: Coolify is profitable thanks to you. Your support helps us build more features and keep improving the project.
+      - generic [ref=f1e12]:
+        - link "GitHub Sponsors" [ref=f1e13] [cursor=pointer]:
+          - /url: https://github.com/sponsors/coollabsio
+        - link "Open Collective" [ref=f1e14] [cursor=pointer]:
+          - /url: https://opencollective.com/coollabsio/donate?interval=month&amount=10&name=&legalName=&email=
+        - link "Stripe" [ref=f1e15] [cursor=pointer]:
+          - /url: https://donate.stripe.com/8x2bJ104ifmB9kB45u38402
+        - button "Maybe next time" [ref=f1e16] [cursor=pointer]
+    - generic [ref=f1e18]:
+      - button "Dismiss notifications reminder" [ref=f1e19]
+      - generic [ref=f1e28]:
+        - heading "No notifications enabled" [level=2] [ref=f1e29]
+        - paragraph [ref=f1e30]:
+          - text: Enable at least one notification channel so you receive important alerts. Visit
+          - link "notifications" [ref=f1e31] [cursor=pointer]:
+            - /url: http://5.75.165.143:8000/notifications/email
+          - text: to get started.
+      - generic [ref=f1e32]:
+        - link "Open notifications" [ref=f1e33] [cursor=pointer]:
+          - /url: http://5.75.165.143:8000/notifications/email
+        - button "Accept and close" [ref=f1e34] [cursor=pointer]
+  - generic [ref=f1e35]:
+    - banner [ref=f1e36]:
+      - generic [ref=f1e37]:
+        - generic [ref=f1e38]:
+          - link "Coolify" [ref=f1e39] [cursor=pointer]:
+            - /url: /
+          - link "v4.7.5" [ref=f1e41] [cursor=pointer]:
+            - /url: https://github.com/coollabsio/coolify/releases/tag/v4.7.5
+        - generic:
+          - generic:
+            - generic "No upgrade available"
+      - generic [ref=f1e44]:
+        - button "R Root Team" [ref=f1e48]:
+          - generic [ref=f1e49]: R
+          - generic [ref=f1e50]: Root Team
+        - generic [ref=f1e53]: /
+        - link "Dashboard" [ref=f1e54] [cursor=pointer]:
+          - /url: http://5.75.165.143:8000
+    - navigation [ref=f1e57]:
+      - button "Search Ctrl+K" [ref=f1e59]:
+        - generic [ref=f1e60]: Search
+        - generic [ref=f1e64]: Ctrl+K
+      - list [ref=f1e65]:
+        - listitem [ref=f1e66]:
+          - list [ref=f1e67]:
+            - listitem [ref=f1e68]:
+              - link "Dashboard" [ref=f1e69] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f1e74]:
+              - link "Projects" [ref=f1e75] [cursor=pointer]:
+                - /url: http://5.75.165.143:8000/projects
+            - listitem [ref=f1e82]:
+              - button "Monitoring" [ref=f1e83]
+            - listitem [ref=f1e90]:
+              - link "Terminal" [ref=f1e91] [cursor=pointer]:
+                - /url: http://5.75.165.143:8000/terminal
+            - listitem [aria-hidden] [ref=f1e97]: Infrastructure
+            - listitem [ref=f1e98]:
+              - link "Servers" [ref=f1e99] [cursor=pointer]:
+                - /url: /servers
+            - listitem [ref=f1e103]:
+              - button "Integrations" [ref=f1e104]
+            - listitem [ref=f1e110]:
+              - button "Shared Variables" [ref=f1e111]
+            - listitem [aria-hidden] [ref=f1e122]: Manage
+            - listitem [ref=f1e123]:
+              - button "Team" [ref=f1e124]
+            - listitem [ref=f1e135]:
+              - button "Notifications" [ref=f1e136]
+            - listitem [ref=f1e142]:
+              - button "Keys & Tokens" [ref=f1e143]
+            - listitem [ref=f1e150]:
+              - link "Tags" [ref=f1e151] [cursor=pointer]:
+                - /url: http://5.75.165.143:8000/tags
+            - listitem [ref=f1e155]:
+              - button "Settings" [ref=f1e156]
+      - generic [ref=f1e164]:
+        - button "Account menu for OMARELEMAM1121" [ref=f1e166] [cursor=pointer]:
+          - generic [ref=f1e167]: O
+          - generic [ref=f1e168]: OMARELEMAM1121
+        - button "Toggle sidebar" [ref=f1e171]
+    - main [ref=f1e174]:
+      - generic [ref=f1e178]:
+        - generic [ref=f1e181]:
+          - heading "Recent deployments" [level=2] [ref=f1e186]
+          - generic [ref=f1e188]:
+            - generic [ref=f1e189]:
+              - generic [ref=f1e190]: Application
+              - generic [ref=f1e191]: Environment
+              - generic [ref=f1e192]: Server
+              - generic [ref=f1e193]: Status
+              - generic [ref=f1e194]: Finished
+            - link "alforqan--backend:main-tfcvmb1u6akclolwymw6cm99 My first project / production localhost Success 8 minutes ago" [ref=f1e195] [cursor=pointer]:
+              - /url: /project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/cxxuurm4efwv3z0msnvc2tdg
+              - paragraph [ref=f1e197]: alforqan--backend:main-tfcvmb1u6akclolwymw6cm99
+              - paragraph [ref=f1e198]: My first project / production
+              - paragraph [ref=f1e199]: localhost
+              - generic [ref=f1e200]: Success
+              - paragraph [ref=f1e205]: 8 minutes ago
+            - link "alforqan--frontend:main-k12le5a7ikqst6vc337t6xtu My first project / production localhost Success 26 minutes ago" [ref=f1e206] [cursor=pointer]:
+              - /url: /project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/deployment/yjtngff7dmayd3k5qbjtmaut
+              - paragraph [ref=f1e208]: alforqan--frontend:main-k12le5a7ikqst6vc337t6xtu
+              - paragraph [ref=f1e209]: My first project / production
+              - paragraph [ref=f1e210]: localhost
+              - generic [ref=f1e211]: Success
+              - paragraph [ref=f1e216]: 26 minutes ago
+            - link "alforqan--backend:main-tfcvmb1u6akclolwymw6cm99 My first project / production localhost Cancelled -" [ref=f1e217] [cursor=pointer]:
+              - /url: /project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/cmpkcghlyxhtqdfooh8syuuf
+              - paragraph [ref=f1e219]: alforqan--backend:main-tfcvmb1u6akclolwymw6cm99
+              - paragraph [ref=f1e220]: My first project / production
+              - paragraph [ref=f1e221]: localhost
+              - generic [ref=f1e222]: Cancelled
+              - paragraph [ref=f1e227]: "-"
+            - link "alforqan--backend:main-tfcvmb1u6akclolwymw6cm99 My first project / production localhost Cancelled -" [ref=f1e228] [cursor=pointer]:
+              - /url: /project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/6qyny9ksetvvzf5yccdvaa96
+              - paragraph [ref=f1e230]: alforqan--backend:main-tfcvmb1u6akclolwymw6cm99
+              - paragraph [ref=f1e231]: My first project / production
+              - paragraph [ref=f1e232]: localhost
+              - generic [ref=f1e233]: Cancelled
+              - paragraph [ref=f1e238]: "-"
+            - link "alforqan--frontend:main-k12le5a7ikqst6vc337t6xtu My first project / production localhost Cancelled -" [ref=f1e239] [cursor=pointer]:
+              - /url: /project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/deployment/wggiobwz5kmivrggqddy8svj
+              - paragraph [ref=f1e241]: alforqan--frontend:main-k12le5a7ikqst6vc337t6xtu
+              - paragraph [ref=f1e242]: My first project / production
+              - paragraph [ref=f1e243]: localhost
+              - generic [ref=f1e244]: Cancelled
+              - paragraph [ref=f1e249]: "-"
+        - generic [ref=f1e250]:
+          - generic [ref=f1e251]:
+            - generic [ref=f1e253]:
+              - generic [ref=f1e255]:
+                - heading "Projects" [level=2] [ref=f1e256]
+                - button "New project" [ref=f1e259]
+              - generic [ref=f1e262]:
+                - button "Grid view" [ref=f1e264]
+                - link "Canvas Try it" [ref=f1e270] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/dashboard/canvas
+                  - text: Canvas
+                  - generic [ref=f1e283]: Try it
+            - generic [ref=f1e284]:
+              - generic [ref=f1e285]:
+                - button "Sort by project, sorted ascending" [ref=f1e286] [cursor=pointer]:
+                  - generic [ref=f1e287]: Project
+                - button "Sort by contents" [ref=f1e290] [cursor=pointer]:
+                  - generic [ref=f1e291]: Contents
+                - button "Sort by description" [ref=f1e295] [cursor=pointer]:
+                  - generic [ref=f1e296]: Description
+                - generic [ref=f1e299]: Actions
+              - generic [ref=f1e300]:
+                - link "Open My first project" [ref=f1e301] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq
+                - paragraph [ref=f1e309]: My first project
+                - generic [ref=f1e310]:
+                  - generic "Environments" [ref=f1e311]: "1"
+                  - generic "Resources" [ref=f1e314]: "3"
+                - paragraph [ref=f1e320]: "-"
+                - generic [ref=f1e321]:
+                  - link "Add resource to My first project" [ref=f1e322] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/new
+                  - link "Open settings for My first project" [ref=f1e324] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/edit
+          - generic [ref=f1e328]:
+            - generic [ref=f1e330]:
+              - generic [ref=f1e332]:
+                - heading "Servers" [level=2] [ref=f1e333]
+                - link "New server" [ref=f1e334] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/servers/new
+              - button "Grid view" [ref=f1e339]
+            - generic [ref=f1e345]:
+              - generic [ref=f1e346]:
+                - button "Sort by server, sorted ascending" [ref=f1e347] [cursor=pointer]:
+                  - generic [ref=f1e348]: Server
+                - button "Sort by description" [ref=f1e352] [cursor=pointer]:
+                  - generic [ref=f1e353]: Description
+                - button "Sort by status" [ref=f1e356] [cursor=pointer]:
+                  - generic [ref=f1e357]: Status
+              - link [ref=f1e360] [cursor=pointer]:
+                - /url: http://5.75.165.143:8000/server/x110ny4ywdaa4i4youjmcent
+                - paragraph [ref=f1e365]: localhost
+                - paragraph [ref=f1e366]: This is the server where Coolify is running on. Don't delete this!
+                - generic [ref=f1e367]: Attention required
+  - list

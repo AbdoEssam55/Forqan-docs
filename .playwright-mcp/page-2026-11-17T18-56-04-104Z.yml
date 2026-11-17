@@ -1,0 +1,339 @@
+- generic [active] [ref=f4e1]:
+  - generic:
+    - generic [ref=f4e3]:
+      - button "Dismiss sponsorship reminder" [ref=f4e4]
+      - generic [ref=f4e9]:
+        - heading "Love Coolify? Support our work." [level=2] [ref=f4e10]
+        - paragraph [ref=f4e11]: Coolify is profitable thanks to you. Your support helps us build more features and keep improving the project.
+      - generic [ref=f4e12]:
+        - link "GitHub Sponsors" [ref=f4e13] [cursor=pointer]:
+          - /url: https://github.com/sponsors/coollabsio
+        - link "Open Collective" [ref=f4e14] [cursor=pointer]:
+          - /url: https://opencollective.com/coollabsio/donate?interval=month&amount=10&name=&legalName=&email=
+        - link "Stripe" [ref=f4e15] [cursor=pointer]:
+          - /url: https://donate.stripe.com/8x2bJ104ifmB9kB45u38402
+        - button "Maybe next time" [ref=f4e16] [cursor=pointer]
+    - generic [ref=f4e18]:
+      - button "Dismiss notifications reminder" [ref=f4e19]
+      - generic [ref=f4e28]:
+        - heading "No notifications enabled" [level=2] [ref=f4e29]
+        - paragraph [ref=f4e30]:
+          - text: Enable at least one notification channel so you receive important alerts. Visit
+          - link "notifications" [ref=f4e31] [cursor=pointer]:
+            - /url: http://5.75.165.143:8000/notifications/email
+          - text: to get started.
+      - generic [ref=f4e32]:
+        - link "Open notifications" [ref=f4e33] [cursor=pointer]:
+          - /url: http://5.75.165.143:8000/notifications/email
+        - button "Accept and close" [ref=f4e34] [cursor=pointer]
+  - generic [ref=f4e35]:
+    - banner [ref=f4e36]:
+      - generic [ref=f4e37]:
+        - generic [ref=f4e38]:
+          - link "Coolify" [ref=f4e39] [cursor=pointer]:
+            - /url: /
+          - link "v4.7.5" [ref=f4e41] [cursor=pointer]:
+            - /url: https://github.com/coollabsio/coolify/releases/tag/v4.7.5
+        - generic:
+          - generic:
+            - generic "No upgrade available"
+      - generic [ref=f4e44]:
+        - button "R Root Team" [ref=f4e48]:
+          - generic [ref=f4e49]: R
+          - generic [ref=f4e50]: Root Team
+        - generic [ref=f4e53]: /
+        - generic [ref=f4e55]:
+          - link "My first project" [ref=f4e56] [cursor=pointer]:
+            - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh
+          - button "Switch project" [ref=f4e58]
+        - generic [ref=f4e61]: /
+        - generic [ref=f4e63]:
+          - link "production" [ref=f4e64] [cursor=pointer]:
+            - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq
+          - button "Switch environment" [ref=f4e66]
+        - generic [ref=f4e69]: /
+        - generic [ref=f4e71]:
+          - generic [ref=f4e72]:
+            - link "alforqan--backend:main-tfcvmb1u6akclolwymw6cm99" [ref=f4e73] [cursor=pointer]:
+              - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99
+            - button "Switch resource" [ref=f4e75]
+          - button "Star" [ref=f4e78]
+    - navigation [ref=f4e83]:
+      - button "Search Ctrl+K" [ref=f4e85]:
+        - generic [ref=f4e86]: Search
+        - generic [ref=f4e90]: Ctrl+K
+      - list [ref=f4e91]:
+        - listitem [ref=f4e92]:
+          - list [ref=f4e93]:
+            - listitem [ref=f4e94]:
+              - button "Back to the main menu" [ref=f4e95]:
+                - generic [ref=f4e99]: Dashboard
+            - listitem [ref=f4e100]:
+              - navigation "Configuration sections" [ref=f4e102]:
+                - link "General" [ref=f4e104] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99
+                - link "Domains" [ref=f4e110] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/domains
+                - link "Environment Variables" [ref=f4e115] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/environment-variables
+                - link "Persistent Storage" [ref=f4e125] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/persistent-storage
+                - link "Advanced" [ref=f4e130] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/advanced
+                - link "Healthcheck" [ref=f4e138] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/healthcheck
+                - link "Runtime Logs" [ref=f4e144] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/logs
+                - link "Deployment Logs" [ref=f4e151] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment
+                - link "Terminal" [ref=f4e157] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/terminal
+                - link "Files Beta" [ref=f4e164] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/files
+                  - generic [ref=f4e167]: Files
+                  - img "Beta" [ref=f4e169]
+                - link "Metrics" [ref=f4e173] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/metrics
+                - link "Analytics" [ref=f4e179] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/analytics
+                - link "Security" [ref=f4e185] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/vulnerabilities
+                - link "Git Source" [ref=f4e193] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/source
+                - link "Servers" [ref=f4e200] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/servers
+                - link "Preview Deployments" [ref=f4e205] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/preview-deployments
+                - link "Scheduled Tasks" [ref=f4e212] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/scheduled-tasks
+                - link "Webhooks" [ref=f4e223] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/webhooks
+                - link "Backups" [ref=f4e231] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/backups
+                - link "Resource Operations" [ref=f4e237] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/resource-operations
+                - link "Maintenance Mode" [ref=f4e242] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/maintenance
+                - link "Resource Limits" [ref=f4e254] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/resource-limits
+                - link "Rollback" [ref=f4e259] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/rollback
+                - link "Tags" [ref=f4e265] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/tags
+                - link "Danger Zone" [ref=f4e271] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/danger
+      - generic [ref=f4e278]:
+        - button "Account menu for OMARELEMAM1121" [ref=f4e280] [cursor=pointer]:
+          - generic [ref=f4e281]: O
+          - generic [ref=f4e282]: OMARELEMAM1121
+        - button "Toggle sidebar" [ref=f4e285]
+    - main [ref=f4e288]:
+      - generic [ref=f4e290]:
+        - navigation [ref=f4e291]:
+          - generic [ref=f4e293]:
+            - generic [ref=f4e295]:
+              - heading "alforqan--backend:main-tfcvmb1u6akclolwymw6cm99" [level=1] [ref=f4e296]
+              - generic [ref=f4e297]:
+                - button "Running (no healthcheck)" [ref=f4e299] [cursor=pointer]
+                - button "Links" [ref=f4e306]
+            - generic [ref=f4e312]:
+              - button "Redeploy" [ref=f4e313] [cursor=pointer]
+              - button "More actions" [ref=f4e316] [cursor=pointer]
+        - generic [ref=f4e323]:
+          - heading [level=3] [ref=f4e326]:
+            - button "More information about Deployment history" [ref=f4e328] [cursor=pointer]:
+              - generic [ref=f4e329]: Deployment history
+          - generic [ref=f4e330]:
+            - generic [ref=f4e331]:
+              - searchbox "Search deployments" [ref=f4e334]
+              - button "Filter" [ref=f4e339] [cursor=pointer]
+            - generic [ref=f4e343]:
+              - generic [ref=f4e344]:
+                - generic [ref=f4e345]:
+                  - generic [ref=f4e346]: Status
+                  - generic [ref=f4e347]: Source
+                  - generic [ref=f4e348]: Commit
+                  - button "Sort by started, sorted descending" [ref=f4e349] [cursor=pointer]:
+                    - generic [ref=f4e350]: Started
+                  - generic [ref=f4e353]: Duration
+                  - generic [ref=f4e354]: Server
+                - generic [ref=f4e355]:
+                  - button "Success" [ref=f4e356] [cursor=pointer]
+                  - button "Manual" [ref=f4e360] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - link "78d6142" [ref=f4e361] [cursor=pointer]:
+                        - /url: https://github.com/omarelemam49141/Alforqan-Backend/commit/78d61426eb7f0ac74927cc5066a5b16d5bc1e9cc
+                      - link "Start sessions on demand and flag late daily revision" [ref=f4e362] [cursor=pointer]:
+                        - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/cxxuurm4efwv3z0msnvc2tdg
+                  - link "11 minutes ago" [ref=f4e363] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/cxxuurm4efwv3z0msnvc2tdg
+                  - link "02m 01s" [ref=f4e364] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/cxxuurm4efwv3z0msnvc2tdg
+                  - link "localhost" [ref=f4e365] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/cxxuurm4efwv3z0msnvc2tdg
+                  - link [aria-hidden] [ref=f4e366] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/cxxuurm4efwv3z0msnvc2tdg
+                - generic [ref=f4e367]:
+                  - button "Cancelled" [ref=f4e368] [cursor=pointer]
+                  - button "Webhook" [ref=f4e372] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - link "78d6142" [ref=f4e373] [cursor=pointer]:
+                        - /url: https://github.com/omarelemam49141/Alforqan-Backend/commit/78d61426eb7f0ac74927cc5066a5b16d5bc1e9cc
+                      - link "Start sessions on demand and flag late daily revision" [ref=f4e374] [cursor=pointer]:
+                        - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/cmpkcghlyxhtqdfooh8syuuf
+                  - link "43 minutes ago" [ref=f4e375] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/cmpkcghlyxhtqdfooh8syuuf
+                  - link "-" [ref=f4e376] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/cmpkcghlyxhtqdfooh8syuuf
+                  - link "localhost" [ref=f4e377] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/cmpkcghlyxhtqdfooh8syuuf
+                  - link [aria-hidden] [ref=f4e378] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/cmpkcghlyxhtqdfooh8syuuf
+                - generic [ref=f4e379]:
+                  - button "Cancelled" [ref=f4e380] [cursor=pointer]
+                  - button "Webhook" [ref=f4e384] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - link "febf09e" [ref=f4e385] [cursor=pointer]:
+                        - /url: https://github.com/omarelemam49141/Alforqan-Backend/commit/febf09ef4b202f82987303ce3a15cbb42263d04b
+                      - link "Serialize evaluation draft saves with a row lock" [ref=f4e386] [cursor=pointer]:
+                        - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/6qyny9ksetvvzf5yccdvaa96
+                  - link "23 hours ago" [ref=f4e387] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/6qyny9ksetvvzf5yccdvaa96
+                  - link "-" [ref=f4e388] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/6qyny9ksetvvzf5yccdvaa96
+                  - link "localhost" [ref=f4e389] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/6qyny9ksetvvzf5yccdvaa96
+                  - link [aria-hidden] [ref=f4e390] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/6qyny9ksetvvzf5yccdvaa96
+                - generic [ref=f4e391]:
+                  - button "Success" [ref=f4e392] [cursor=pointer]
+                  - button "Webhook" [ref=f4e396] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - link "c74ee82" [ref=f4e397] [cursor=pointer]:
+                        - /url: https://github.com/omarelemam49141/Alforqan-Backend/commit/c74ee82694450dabde247d150acf7ea08d18755e
+                      - link "Remove unnecessary --no-restore option from Dockerfile publish command" [ref=f4e398] [cursor=pointer]:
+                        - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/nxahkhki6oi3gcozohmavp5q
+                  - link "6 days ago" [ref=f4e399] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/nxahkhki6oi3gcozohmavp5q
+                  - link "01m 51s" [ref=f4e400] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/nxahkhki6oi3gcozohmavp5q
+                  - link "localhost" [ref=f4e401] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/nxahkhki6oi3gcozohmavp5q
+                  - link [aria-hidden] [ref=f4e402] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/nxahkhki6oi3gcozohmavp5q
+                - generic [ref=f4e403]:
+                  - button "Failed" [ref=f4e404] [cursor=pointer]
+                  - button "Manual" [ref=f4e408] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - link "8b6dbf6" [ref=f4e409] [cursor=pointer]:
+                        - /url: https://github.com/omarelemam49141/Alforqan-Backend/commit/8b6dbf64e82bd06de8b9b7def51d108542374e90
+                      - link "Add Revision Reports Controller and Student Note Validation" [ref=f4e410] [cursor=pointer]:
+                        - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/xe8ym2nwn4tlaiplv3vxlgke
+                  - link "6 days ago" [ref=f4e411] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/xe8ym2nwn4tlaiplv3vxlgke
+                  - link "00m 15s" [ref=f4e412] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/xe8ym2nwn4tlaiplv3vxlgke
+                  - link "localhost" [ref=f4e413] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/xe8ym2nwn4tlaiplv3vxlgke
+                  - link [aria-hidden] [ref=f4e414] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/xe8ym2nwn4tlaiplv3vxlgke
+                - generic [ref=f4e415]:
+                  - button "Failed" [ref=f4e416] [cursor=pointer]
+                  - button "Manual" [ref=f4e420] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - link "8b6dbf6" [ref=f4e421] [cursor=pointer]:
+                        - /url: https://github.com/omarelemam49141/Alforqan-Backend/commit/8b6dbf64e82bd06de8b9b7def51d108542374e90
+                      - link "Add Revision Reports Controller and Student Note Validation" [ref=f4e422] [cursor=pointer]:
+                        - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/gipvtp6bpzlhweavcme7fldh
+                  - link "6 days ago" [ref=f4e423] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/gipvtp6bpzlhweavcme7fldh
+                  - link "00m 19s" [ref=f4e424] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/gipvtp6bpzlhweavcme7fldh
+                  - link "localhost" [ref=f4e425] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/gipvtp6bpzlhweavcme7fldh
+                  - link [aria-hidden] [ref=f4e426] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/gipvtp6bpzlhweavcme7fldh
+                - generic [ref=f4e427]:
+                  - button "Cancelled" [ref=f4e428] [cursor=pointer]
+                  - button "Webhook" [ref=f4e432] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - link "8b6dbf6" [ref=f4e433] [cursor=pointer]:
+                        - /url: https://github.com/omarelemam49141/Alforqan-Backend/commit/8b6dbf64e82bd06de8b9b7def51d108542374e90
+                      - link "Add Revision Reports Controller and Student Note Validation" [ref=f4e434] [cursor=pointer]:
+                        - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/5z3ljt2yw8gnxl5cyt449zbv
+                  - link "6 days ago" [ref=f4e435] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/5z3ljt2yw8gnxl5cyt449zbv
+                  - link "04m 41s" [ref=f4e436] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/5z3ljt2yw8gnxl5cyt449zbv
+                  - link "localhost" [ref=f4e437] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/5z3ljt2yw8gnxl5cyt449zbv
+                  - link [aria-hidden] [ref=f4e438] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/5z3ljt2yw8gnxl5cyt449zbv
+                - generic [ref=f4e439]:
+                  - button "Success" [ref=f4e440] [cursor=pointer]
+                  - button "Webhook" [ref=f4e444] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - link "350c315" [ref=f4e445] [cursor=pointer]:
+                        - /url: https://github.com/omarelemam49141/Alforqan-Backend/commit/350c315a5eed535760b7226b206b599abbedc78c
+                      - link "Merge branch 'feature/revision-day-review'" [ref=f4e446] [cursor=pointer]:
+                        - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/frql6uejvz4ds2eghi5kvwo8
+                  - link "6 days ago" [ref=f4e447] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/frql6uejvz4ds2eghi5kvwo8
+                  - link "02m 20s" [ref=f4e448] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/frql6uejvz4ds2eghi5kvwo8
+                  - link "localhost" [ref=f4e449] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/frql6uejvz4ds2eghi5kvwo8
+                  - link [aria-hidden] [ref=f4e450] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/frql6uejvz4ds2eghi5kvwo8
+                - generic [ref=f4e451]:
+                  - button "Success" [ref=f4e452] [cursor=pointer]
+                  - button "Webhook" [ref=f4e456] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - link "c5facb0" [ref=f4e457] [cursor=pointer]:
+                        - /url: https://github.com/omarelemam49141/Alforqan-Backend/commit/c5facb04440bfd8892df92e0b1db94cb2547ef6e
+                      - link "feature" [ref=f4e458] [cursor=pointer]:
+                        - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/9nddymyeaedgbapshhgimws0
+                  - link "1 week ago" [ref=f4e459] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/9nddymyeaedgbapshhgimws0
+                  - link "02m 13s" [ref=f4e460] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/9nddymyeaedgbapshhgimws0
+                  - link "localhost" [ref=f4e461] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/9nddymyeaedgbapshhgimws0
+                  - link [aria-hidden] [ref=f4e462] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/9nddymyeaedgbapshhgimws0
+                - generic [ref=f4e463]:
+                  - button "Success" [ref=f4e464] [cursor=pointer]
+                  - button "Webhook" [ref=f4e468] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - link "6bb377e" [ref=f4e469] [cursor=pointer]:
+                        - /url: https://github.com/omarelemam49141/Alforqan-Backend/commit/6bb377e8247366b397fa8949685587d40360bf5f
+                      - link "Ignore Playwright MCP snapshots" [ref=f4e470] [cursor=pointer]:
+                        - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/kys7exfpmm3afwcrtnn89m1a
+                  - link "1 week ago" [ref=f4e471] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/kys7exfpmm3afwcrtnn89m1a
+                  - link "03m 12s" [ref=f4e472] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/kys7exfpmm3afwcrtnn89m1a
+                  - link "localhost" [ref=f4e473] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/kys7exfpmm3afwcrtnn89m1a
+                  - link [aria-hidden] [ref=f4e474] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/tfcvmb1u6akclolwymw6cm99/deployment/kys7exfpmm3afwcrtnn89m1a
+              - generic [ref=f4e475]:
+                - generic [ref=f4e476]:
+                  - generic [ref=f4e477]: 1–10 of 48
+                  - button "Items per page" [ref=f4e482]:
+                    - generic [ref=f4e483]: "10"
+                    - generic [ref=f4e484]: / page
+                - generic [ref=f4e487]:
+                  - button "Previous page" [disabled]
+                  - button "Next page" [ref=f4e488]
+  - list

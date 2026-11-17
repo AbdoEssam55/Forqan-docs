@@ -1,0 +1,357 @@
+- generic [active] [ref=f6e1]:
+  - generic:
+    - generic [ref=f6e3]:
+      - button "Dismiss sponsorship reminder" [ref=f6e4]
+      - generic [ref=f6e9]:
+        - heading "Love Coolify? Support our work." [level=2] [ref=f6e10]
+        - paragraph [ref=f6e11]: Coolify is profitable thanks to you. Your support helps us build more features and keep improving the project.
+      - generic [ref=f6e12]:
+        - link "GitHub Sponsors" [ref=f6e13] [cursor=pointer]:
+          - /url: https://github.com/sponsors/coollabsio
+        - link "Open Collective" [ref=f6e14] [cursor=pointer]:
+          - /url: https://opencollective.com/coollabsio/donate?interval=month&amount=10&name=&legalName=&email=
+        - link "Stripe" [ref=f6e15] [cursor=pointer]:
+          - /url: https://donate.stripe.com/8x2bJ104ifmB9kB45u38402
+        - button "Maybe next time" [ref=f6e16] [cursor=pointer]
+    - generic [ref=f6e18]:
+      - button "Dismiss notifications reminder" [ref=f6e19]
+      - generic [ref=f6e28]:
+        - heading "No notifications enabled" [level=2] [ref=f6e29]
+        - paragraph [ref=f6e30]:
+          - text: Enable at least one notification channel so you receive important alerts. Visit
+          - link "notifications" [ref=f6e31] [cursor=pointer]:
+            - /url: http://5.75.165.143:8000/notifications/email
+          - text: to get started.
+      - generic [ref=f6e32]:
+        - link "Open notifications" [ref=f6e33] [cursor=pointer]:
+          - /url: http://5.75.165.143:8000/notifications/email
+        - button "Accept and close" [ref=f6e34] [cursor=pointer]
+  - generic [ref=f6e35]:
+    - banner [ref=f6e36]:
+      - generic [ref=f6e37]:
+        - generic [ref=f6e38]:
+          - link "Coolify" [ref=f6e39] [cursor=pointer]:
+            - /url: /
+          - link "v4.7.5" [ref=f6e41] [cursor=pointer]:
+            - /url: https://github.com/coollabsio/coolify/releases/tag/v4.7.5
+        - generic:
+          - generic:
+            - generic "No upgrade available"
+      - generic [ref=f6e44]:
+        - button "R Root Team" [ref=f6e48]:
+          - generic [ref=f6e49]: R
+          - generic [ref=f6e50]: Root Team
+        - generic [ref=f6e53]: /
+        - generic [ref=f6e55]:
+          - link "My first project" [ref=f6e56] [cursor=pointer]:
+            - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh
+          - button "Switch project" [ref=f6e58]
+        - generic [ref=f6e61]: /
+        - generic [ref=f6e63]:
+          - link "production" [ref=f6e64] [cursor=pointer]:
+            - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq
+          - button "Switch environment" [ref=f6e66]
+        - generic [ref=f6e69]: /
+        - generic [ref=f6e71]:
+          - generic [ref=f6e72]:
+            - link "alforqan--frontend:main-k12le5a7ikqst6vc337t6xtu" [ref=f6e73] [cursor=pointer]:
+              - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu
+            - button "Switch resource" [ref=f6e75]
+          - button "Star" [ref=f6e78]
+    - navigation [ref=f6e83]:
+      - button "Search Ctrl+K" [ref=f6e85]:
+        - generic [ref=f6e86]: Search
+        - generic [ref=f6e90]: Ctrl+K
+      - list [ref=f6e91]:
+        - listitem [ref=f6e92]:
+          - list [ref=f6e93]:
+            - listitem [ref=f6e94]:
+              - button "Back to the main menu" [ref=f6e95]:
+                - generic [ref=f6e99]: Dashboard
+            - listitem [ref=f6e100]:
+              - navigation "Configuration sections" [ref=f6e102]:
+                - generic [ref=f6e103]:
+                  - link "General" [ref=f6e104] [cursor=pointer]:
+                    - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu
+                  - generic [ref=f6e109]:
+                    - button "Application details" [ref=f6e110]
+                    - button "Access" [ref=f6e112]
+                    - button "Build & deploy" [ref=f6e114]
+                    - button "Container" [ref=f6e116]
+                - link "Domains" [ref=f6e119] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/domains
+                - link "Environment Variables" [ref=f6e124] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/environment-variables
+                - link "Persistent Storage" [ref=f6e134] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/persistent-storage
+                - link "Advanced" [ref=f6e139] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/advanced
+                - link "Healthcheck" [ref=f6e147] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/healthcheck
+                - link "Runtime Logs" [ref=f6e153] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/logs
+                - link "Deployment Logs" [ref=f6e160] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/deployment
+                - link "Terminal" [ref=f6e166] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/terminal
+                - link "Files Beta" [ref=f6e173] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/files
+                  - generic [ref=f6e176]: Files
+                  - img "Beta" [ref=f6e178]
+                - link "Metrics" [ref=f6e182] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/metrics
+                - link "Analytics" [ref=f6e188] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/analytics
+                - link "Security" [ref=f6e194] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/vulnerabilities
+                - link "Git Source" [ref=f6e202] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/source
+                - link "Servers" [ref=f6e209] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/servers
+                - link "Preview Deployments" [ref=f6e214] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/preview-deployments
+                - link "Scheduled Tasks" [ref=f6e221] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/scheduled-tasks
+                - link "Webhooks" [ref=f6e232] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/webhooks
+                - link "Backups" [ref=f6e240] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/backups
+                - link "Resource Operations" [ref=f6e246] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/resource-operations
+                - link "Maintenance Mode" [ref=f6e251] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/maintenance
+                - link "Resource Limits" [ref=f6e263] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/resource-limits
+                - link "Rollback" [ref=f6e268] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/rollback
+                - link "Tags" [ref=f6e274] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/tags
+                - link "Danger Zone" [ref=f6e280] [cursor=pointer]:
+                  - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/danger
+      - generic [ref=f6e287]:
+        - button "Account menu for OMARELEMAM1121" [ref=f6e289] [cursor=pointer]:
+          - generic [ref=f6e290]: O
+          - generic [ref=f6e291]: OMARELEMAM1121
+        - button "Toggle sidebar" [ref=f6e294]
+    - main [ref=f6e297]:
+      - generic [ref=f6e299]:
+        - navigation [ref=f6e300]:
+          - generic [ref=f6e302]:
+            - generic [ref=f6e304]:
+              - heading "alforqan--frontend:main-k12le5a7ikqst6vc337t6xtu" [level=1] [ref=f6e305]
+              - generic [ref=f6e306]:
+                - button "Running (no healthcheck)" [ref=f6e308] [cursor=pointer]
+                - button "Links" [ref=f6e315]
+            - generic [ref=f6e321]:
+              - button "Redeploy" [ref=f6e322] [cursor=pointer]
+              - button "More actions" [ref=f6e325] [cursor=pointer]
+        - generic [ref=f6e333]:
+          - generic:
+            - generic: You have changes that haven't been saved yet.
+            - generic:
+              - button "Reset"
+              - button "Save changes Enter":
+                - generic: Save changes
+                - generic: Enter
+          - generic [ref=f6e334]:
+            - generic [ref=f6e335]:
+              - heading [level=3] [ref=f6e338]:
+                - button "More information about Application details" [ref=f6e340] [cursor=pointer]:
+                  - generic [ref=f6e341]: Application details
+              - generic [ref=f6e343]:
+                - generic [ref=f6e344]:
+                  - generic [ref=f6e346]:
+                    - text: Name
+                    - generic [ref=f6e347]: "*"
+                  - textbox [ref=f6e348]: alforqan--frontend:main-k12le5a7ikqst6vc337t6xtu
+                - generic [ref=f6e349]:
+                  - generic [ref=f6e350]: Description
+                  - textbox [ref=f6e352]
+            - generic [ref=f6e353]:
+              - heading [level=3] [ref=f6e356]:
+                - button "More information about Access" [ref=f6e358] [cursor=pointer]:
+                  - generic [ref=f6e359]: Access
+              - generic [ref=f6e360]:
+                - generic [ref=f6e361]:
+                  - heading "Public access" [level=3] [ref=f6e362]
+                  - generic [ref=f6e363]:
+                    - link "Manage application domains" [ref=f6e364] [cursor=pointer]:
+                      - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/domains
+                      - generic [ref=f6e368]:
+                        - paragraph [ref=f6e369]:
+                          - generic [ref=f6e370]: https://alforqan.vip
+                        - paragraph [ref=f6e371]: +1 more domain
+                    - link "Manage application domains" [ref=f6e372] [cursor=pointer]:
+                      - /url: http://5.75.165.143:8000/project/fxjjy8nrxr5t9wa7est2yowh/environment/a5l6bnyuuizru2g3xs416ckq/application/k12le5a7ikqst6vc337t6xtu/domains
+                      - text: Manage domains
+                - generic [ref=f6e375]:
+                  - heading "Authentication" [level=3] [ref=f6e377]
+                  - generic [ref=f6e378]:
+                    - generic [ref=f6e379]:
+                      - generic [ref=f6e380]: Method
+                      - button "More information" [ref=f6e382] [cursor=pointer]
+                    - button "Method" [ref=f6e388] [cursor=pointer]:
+                      - generic [ref=f6e389]: None
+                - generic [ref=f6e393]:
+                  - heading "Internal access" [level=3] [ref=f6e394]
+                  - generic [ref=f6e395]:
+                    - generic [ref=f6e396]:
+                      - generic [ref=f6e397]: Internal hostname
+                      - generic [ref=f6e398]:
+                        - textbox [ref=f6e399]: k12le5a7ikqst6vc337t6xtu-20261117T182133
+                        - button "Copy to clipboard" [ref=f6e400]
+                    - generic [ref=f6e405]:
+                      - generic [ref=f6e406]: Docker network
+                      - generic [ref=f6e407]:
+                        - textbox [ref=f6e408]: coolify
+                        - button "Copy to clipboard" [ref=f6e409]
+                    - generic [ref=f6e414]:
+                      - generic [ref=f6e415]: Exposed ports
+                      - generic [ref=f6e416]:
+                        - textbox [ref=f6e417]: "3000"
+                        - button "Copy to clipboard" [ref=f6e418]
+                    - generic [ref=f6e423]:
+                      - generic [ref=f6e424]: Network aliases
+                      - generic [ref=f6e425]:
+                        - textbox [ref=f6e426]: None
+                        - button "Copy to clipboard" [ref=f6e427]
+                  - generic [ref=f6e432]:
+                    - paragraph [ref=f6e433]: Internal hostnames are only reachable by resources connected to this Docker network.
+                    - button "Edit networking" [ref=f6e434] [cursor=pointer]
+            - generic [ref=f6e435]:
+              - heading [level=3] [ref=f6e438]:
+                - button "More information about Build & deploy" [ref=f6e440] [cursor=pointer]:
+                  - generic [ref=f6e441]: Build & deploy
+              - generic [ref=f6e442]:
+                - generic [ref=f6e445]:
+                  - generic [ref=f6e446]: Build strategy
+                  - button "Build strategy" [ref=f6e449] [cursor=pointer]:
+                    - generic [ref=f6e450]: Dockerfile
+                - generic [ref=f6e455]:
+                  - generic [ref=f6e456]:
+                    - generic [ref=f6e457]:
+                      - generic [ref=f6e458]:
+                        - generic [ref=f6e459]: Base directory
+                        - button "More information" [ref=f6e461] [cursor=pointer]
+                      - textbox "/" [ref=f6e466]
+                    - generic [ref=f6e467]:
+                      - generic [ref=f6e468]:
+                        - generic [ref=f6e469]: Dockerfile location
+                        - button "More information" [ref=f6e471] [cursor=pointer]
+                      - textbox "/Dockerfile" [ref=f6e476]
+                    - paragraph [ref=f6e477]:
+                      - text: "Resolved file:"
+                      - code [ref=f6e478]: /Dockerfile
+                  - generic [ref=f6e480]:
+                    - generic [ref=f6e481]:
+                      - generic [ref=f6e482]: Watch paths
+                      - button "More information" [ref=f6e484] [cursor=pointer]
+                    - textbox "src/pages/**" [ref=f6e489]
+                  - generic [ref=f6e490]:
+                    - generic [ref=f6e491]:
+                      - generic [ref=f6e492]:
+                        - generic [ref=f6e493]: Docker build stage target
+                        - button "More information" [ref=f6e495] [cursor=pointer]
+                      - textbox [ref=f6e500]
+                    - generic [ref=f6e501]:
+                      - generic [ref=f6e502]:
+                        - generic [ref=f6e503]: Builder selection
+                        - button "More information" [ref=f6e505] [cursor=pointer]
+                      - button "Builder selection" [ref=f6e511] [cursor=pointer]:
+                        - generic [ref=f6e512]: Deployment server
+                - generic [ref=f6e516]:
+                  - heading "Image registry" [level=3] [ref=f6e518]
+                  - generic [ref=f6e519]:
+                    - generic [ref=f6e520]:
+                      - generic [ref=f6e521]:
+                        - generic [ref=f6e522]: Image
+                        - button "More information" [ref=f6e524] [cursor=pointer]
+                      - textbox "ghcr.io/your-org/your-app" [ref=f6e529]
+                    - generic [ref=f6e530]:
+                      - generic [ref=f6e531]:
+                        - generic [ref=f6e532]: Tag
+                        - button "More information" [ref=f6e534] [cursor=pointer]
+                      - textbox "latest" [ref=f6e539]
+                - generic [ref=f6e540]:
+                  - heading "Deployment commands" [level=3] [ref=f6e542]
+                  - generic [ref=f6e543]:
+                    - generic [ref=f6e545]:
+                      - generic [ref=f6e546]:
+                        - generic [ref=f6e547]: Pre-deployment
+                        - button "More information" [ref=f6e549] [cursor=pointer]
+                      - textbox "php artisan migrate" [ref=f6e554]
+                    - generic [ref=f6e556]:
+                      - generic [ref=f6e557]:
+                        - generic [ref=f6e558]: Post-deployment
+                        - button "More information" [ref=f6e560] [cursor=pointer]
+                      - textbox "php artisan migrate" [ref=f6e565]
+            - generic [ref=f6e566]:
+              - heading [level=3] [ref=f6e569]:
+                - button "More information about Container" [ref=f6e571] [cursor=pointer]:
+                  - generic [ref=f6e572]: Container
+              - generic [ref=f6e573]:
+                - generic [ref=f6e574]:
+                  - generic [ref=f6e575]:
+                    - generic [ref=f6e576]: Custom Docker options
+                    - button "More information" [ref=f6e578] [cursor=pointer]
+                  - textbox "--cap-add SYS_ADMIN --device=/dev/fuse --security-opt apparmor:unconfined --ulimit nofile=1024:1024 --tmpfs /run:rw,noexec,nosuid,size=65536k --hostname=myapp" [ref=f6e583]
+                - generic [ref=f6e584]:
+                  - heading "Labels" [level=3] [ref=f6e586]
+                  - generic [ref=f6e587]:
+                    - generic [ref=f6e588]:
+                      - generic [ref=f6e589]:
+                        - generic [ref=f6e590]: Label management
+                        - button "More information" [ref=f6e592] [cursor=pointer]
+                      - button "Label management" [ref=f6e598] [cursor=pointer]:
+                        - generic [ref=f6e599]: Managed by Coolify (auto-generated)
+                    - generic [ref=f6e603]:
+                      - generic [ref=f6e604]:
+                        - generic [ref=f6e605]: Special characters
+                        - button "More information" [ref=f6e607] [cursor=pointer]
+                      - button "Special characters" [ref=f6e613] [cursor=pointer]:
+                        - generic [ref=f6e614]: Escape special characters ($ becomes $$)
+                  - generic [ref=f6e618]:
+                    - generic [ref=f6e619]:
+                      - generic [ref=f6e620]: Active labels
+                      - button "Reset to defaults" [ref=f6e622] [cursor=pointer]
+                    - code [ref=f6e629]:
+                      - generic [ref=f6e630]:
+                        - generic [aria-hidden] [ref=f6e632]:
+                          - generic [ref=f6e633]: "1"
+                          - generic [ref=f6e636]: "2"
+                          - generic [ref=f6e638]: "3"
+                          - generic [ref=f6e640]: "4"
+                          - generic [ref=f6e642]: "5"
+                          - generic [ref=f6e645]: "6"
+                          - generic [ref=f6e648]: "7"
+                          - generic [ref=f6e651]: "8"
+                          - generic [ref=f6e653]: "9"
+                          - generic [ref=f6e656]: "10"
+                          - generic [ref=f6e659]: "11"
+                          - generic [ref=f6e662]: "12"
+                          - generic [ref=f6e664]: "13"
+                        - generic [aria-hidden] [ref=f6e686]:
+                          - generic [ref=f6e687]: traefik.enable=true
+                          - generic [ref=f6e689]: traefik.http.middlewares.gzip.compress=true
+                          - generic [ref=f6e691]: traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https
+                          - generic [ref=f6e693]: traefik.http.routers.http-0-k12le5a7ikqst6vc337t6xtu.entryPoints=http
+                          - generic [ref=f6e695]: traefik.http.routers.http-0-k12le5a7ikqst6vc337t6xtu.
+                          - generic [ref=f6e697]: middlewares=redirect-to-https
+                          - generic [ref=f6e699]: "traefik.http.routers.http-0-k12le5a7ikqst6vc337t6xtu.rule=Host(`alforqan."
+                          - generic [ref=f6e701]: "vip`) && PathPrefix(`/`)"
+                          - generic [ref=f6e703]: traefik.http.routers.http-0-k12le5a7ikqst6vc337t6xtu.
+                          - generic [ref=f6e705]: service=http-0-k12le5a7ikqst6vc337t6xtu
+                          - generic [ref=f6e707]: traefik.http.routers.http-1-k12le5a7ikqst6vc337t6xtu.entryPoints=http
+                          - generic [ref=f6e709]: traefik.http.routers.http-1-k12le5a7ikqst6vc337t6xtu.
+                          - generic [ref=f6e711]: middlewares=redirect-to-https
+                          - generic [ref=f6e713]: "traefik.http.routers.http-1-k12le5a7ikqst6vc337t6xtu.rule=Host(`www."
+                          - generic [ref=f6e715]: "alforqan.vip`) && PathPrefix(`/`)"
+                          - generic [ref=f6e717]: traefik.http.routers.http-1-k12le5a7ikqst6vc337t6xtu.
+                          - generic [ref=f6e719]: service=http-1-k12le5a7ikqst6vc337t6xtu
+                          - generic [ref=f6e721]: traefik.http.routers.https-0-k12le5a7ikqst6vc337t6xtu.entryPoints=https
+                          - generic [ref=f6e723]: traefik.http.routers.https-0-k12le5a7ikqst6vc337t6xtu.middlewares=gzip
+                        - textbox "Editor content" [ref=f6e725]
+  - list
+  - generic [ref=f6e726]:
+    - alert
+    - alert
